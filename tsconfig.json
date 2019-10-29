@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "jsx": "react",
+    "noLib": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "keyofStringsOnly": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "allowJs": false,
+    "lib": ["dom", "scripthost", "esnext"],
+    "baseUrl": "."
+  },
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules",
+    "src/**/__stories__/*.tsx",
+    "src/**/__tests__/*.ts",
+    "src/**/__mocks__/*.ts"
+  ]
+}
